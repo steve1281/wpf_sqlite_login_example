@@ -23,5 +23,10 @@ namespace SQlite_Login_Example
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            // @todo: implement
+        }
     }
 }
