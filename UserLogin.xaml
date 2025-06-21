@@ -11,7 +11,7 @@
         <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Margin="92,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="92,230,0,0" VerticalAlignment="Top" FontSize="8"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="92,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222"/>
-        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="92,303,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.099,0.457" Width="222" Background="#FF0E2364" Foreground="#FFF6F4F4" />
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="92,303,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.099,0.457" Width="222" Background="#FF0E2364" Foreground="#FFF6F4F4" Click="btnSubmit_Click" />
         <Label Content="Login" HorizontalAlignment="Center" Margin="0,116,0,0" VerticalAlignment="Top" Foreground="#FF0E2364" FontSize="24" FontWeight="Bold"/>
 
     </Grid>
