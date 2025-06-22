@@ -26,7 +26,28 @@ namespace SQlite_Login_Example
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            // @todo: implement
+            var Username = txtUserName.Text;
+            var Password = txtPassword.Password;
+
+            using (UserDataContext context = new UserDataContext())
+            {
+                bool userfound = context.Users.Any(user => user.Name == Username && user.Password == Password);
+                if (userfound)
+                {
+                    GrantAccess();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("User Not Found");
+                }
+            }
+        }
+
+        public void GrantAccess()
+        {
+            MainPage main = new MainPage();
+            main.Show();
         }
     }
 }
