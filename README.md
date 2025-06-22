@@ -6,7 +6,7 @@ based on: https://www.youtube.com/watch?v=X2AksMwYyss by Tactic Devs
 Application is a very simple SQLite login screen.  You will need to run it once to generate the Datbasedb file. Oce that is done, you will need to edit the database file with _DB Browser for SQLite__ or equivalent.
 You can access this tool at: https://sqlitebrowser.org
 
-Also, the tutorial doesn't explain how to setup the project, or in fact any of the UI. It's not hard; stuggle through it.
+Also, the tutorial doesn't explain how to setup the project, or in fact any of the UI. It's not hard; struggle through it.
 
 You will need to add libs:
 
