@@ -17,3 +17,17 @@ NUGETs:
 Notes:
 - I ran into an error while following tutorial; it started talking about SQLitePCL.Batteries. If this happens, drop the nugs the video suggests and add just the one from above.
 
+git log --online --decorate --all --reverse
+
+- 1e35fb2 add gitignore
+- d261d4b initial project
+- ae395ae rough in mainpage and userlogin windows
+- 1c84838 add login fields and a button click handler
+- 639f8ad set userlogin as startupuri, cleanup mainpage a little
+- 8f52ef0 add a readme
+- 665b8bd add in suport for sqlite via entityframework
+- 3fa2695 add database interface and user class for our table
+- a4b2251 add code to create database if it doesn't exist.
+- 1ebf754 messing with nugs to get rid of errors; see readme
+- bdc5f8c query to see if user is allowed, close window, open main page
+- 5c07775 (HEAD -> master) update notes
