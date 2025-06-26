@@ -17,7 +17,7 @@ NUGETs:
 Notes:
 - I ran into an error while following tutorial; it started talking about SQLitePCL.Batteries. If this happens, drop the nugs the video suggests and add just the one from above.
 
-git log --online --decorate --all --reverse
+git log --oneline --decorate --all --reverse
 
 - 1e35fb2 add gitignore
 - d261d4b initial project
